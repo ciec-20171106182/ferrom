@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9709D42E2171819900547467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9709D42D2171819900547467 /* AppDelegate.swift */; };
+		9709D4302171819900547467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9709D42F2171819900547467 /* ViewController.swift */; };
+		9709D4332171819900547467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9709D4312171819900547467 /* Main.storyboard */; };
+		9709D4352171819A00547467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9709D4342171819A00547467 /* Assets.xcassets */; };
+		9709D4382171819A00547467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9709D4362171819A00547467 /* LaunchScreen.storyboard */; };
+		9709D4432171819A00547467 /* ferromTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9709D4422171819A00547467 /* ferromTests.swift */; };
+		9709D44E2171819A00547467 /* ferromUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9709D44D2171819A00547467 /* ferromUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9709D43F2171819A00547467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9709D4222171819900547467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9709D4292171819900547467;
+			remoteInfo = ferrom;
+		};
+		9709D44A2171819A00547467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9709D4222171819900547467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9709D4292171819900547467;
+			remoteInfo = ferrom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9709D42A2171819900547467 /* ferrom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ferrom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9709D42D2171819900547467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9709D42F2171819900547467 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9709D4322171819900547467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9709D4342171819A00547467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9709D4372171819A00547467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9709D4392171819A00547467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9709D43E2171819A00547467 /* ferromTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ferromTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9709D4422171819A00547467 /* ferromTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ferromTests.swift; sourceTree = "<group>"; };
+		9709D4442171819A00547467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9709D4492171819A00547467 /* ferromUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ferromUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9709D44D2171819A00547467 /* ferromUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ferromUITests.swift; sourceTree = "<group>"; };
+		9709D44F2171819A00547467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9709D4272171819900547467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709D43B2171819A00547467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709D4462171819A00547467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9709D4212171819900547467 = {
+			isa = PBXGroup;
+			children = (
+				9709D42C2171819900547467 /* ferrom */,
+				9709D4412171819A00547467 /* ferromTests */,
+				9709D44C2171819A00547467 /* ferromUITests */,
+				9709D42B2171819900547467 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9709D42B2171819900547467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9709D42A2171819900547467 /* ferrom.app */,
+				9709D43E2171819A00547467 /* ferromTests.xctest */,
+				9709D4492171819A00547467 /* ferromUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9709D42C2171819900547467 /* ferrom */ = {
+			isa = PBXGroup;
+			children = (
+				9709D42D2171819900547467 /* AppDelegate.swift */,
+				9709D42F2171819900547467 /* ViewController.swift */,
+				9709D4312171819900547467 /* Main.storyboard */,
+				9709D4342171819A00547467 /* Assets.xcassets */,
+				9709D4362171819A00547467 /* LaunchScreen.storyboard */,
+				9709D4392171819A00547467 /* Info.plist */,
+			);
+			path = ferrom;
+			sourceTree = "<group>";
+		};
+		9709D4412171819A00547467 /* ferromTests */ = {
+			isa = PBXGroup;
+			children = (
+				9709D4422171819A00547467 /* ferromTests.swift */,
+				9709D4442171819A00547467 /* Info.plist */,
+			);
+			path = ferromTests;
+			sourceTree = "<group>";
+		};
+		9709D44C2171819A00547467 /* ferromUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9709D44D2171819A00547467 /* ferromUITests.swift */,
+				9709D44F2171819A00547467 /* Info.plist */,
+			);
+			path = ferromUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9709D4292171819900547467 /* ferrom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9709D4522171819A00547467 /* Build configuration list for PBXNativeTarget "ferrom" */;
+			buildPhases = (
+				9709D4262171819900547467 /* Sources */,
+				9709D4272171819900547467 /* Frameworks */,
+				9709D4282171819900547467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ferrom;
+			productName = ferrom;
+			productReference = 9709D42A2171819900547467 /* ferrom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9709D43D2171819A00547467 /* ferromTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9709D4552171819A00547467 /* Build configuration list for PBXNativeTarget "ferromTests" */;
+			buildPhases = (
+				9709D43A2171819A00547467 /* Sources */,
+				9709D43B2171819A00547467 /* Frameworks */,
+				9709D43C2171819A00547467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9709D4402171819A00547467 /* PBXTargetDependency */,
+			);
+			name = ferromTests;
+			productName = ferromTests;
+			productReference = 9709D43E2171819A00547467 /* ferromTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9709D4482171819A00547467 /* ferromUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9709D4582171819A00547467 /* Build configuration list for PBXNativeTarget "ferromUITests" */;
+			buildPhases = (
+				9709D4452171819A00547467 /* Sources */,
+				9709D4462171819A00547467 /* Frameworks */,
+				9709D4472171819A00547467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9709D44B2171819A00547467 /* PBXTargetDependency */,
+			);
+			name = ferromUITests;
+			productName = ferromUITests;
+			productReference = 9709D4492171819A00547467 /* ferromUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9709D4222171819900547467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = s20171106182;
+				TargetAttributes = {
+					9709D4292171819900547467 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					9709D43D2171819A00547467 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9709D4292171819900547467;
+					};
+					9709D4482171819A00547467 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9709D4292171819900547467;
+					};
+				};
+			};
+			buildConfigurationList = 9709D4252171819900547467 /* Build configuration list for PBXProject "ferrom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9709D4212171819900547467;
+			productRefGroup = 9709D42B2171819900547467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9709D4292171819900547467 /* ferrom */,
+				9709D43D2171819A00547467 /* ferromTests */,
+				9709D4482171819A00547467 /* ferromUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9709D4282171819900547467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9709D4382171819A00547467 /* LaunchScreen.storyboard in Resources */,
+				9709D4352171819A00547467 /* Assets.xcassets in Resources */,
+				9709D4332171819900547467 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709D43C2171819A00547467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709D4472171819A00547467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9709D4262171819900547467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9709D4302171819900547467 /* ViewController.swift in Sources */,
+				9709D42E2171819900547467 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709D43A2171819A00547467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9709D4432171819A00547467 /* ferromTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709D4452171819A00547467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9709D44E2171819A00547467 /* ferromUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9709D4402171819A00547467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9709D4292171819900547467 /* ferrom */;
+			targetProxy = 9709D43F2171819A00547467 /* PBXContainerItemProxy */;
+		};
+		9709D44B2171819A00547467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9709D4292171819900547467 /* ferrom */;
+			targetProxy = 9709D44A2171819A00547467 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9709D4312171819900547467 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9709D4322171819900547467 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9709D4362171819A00547467 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9709D4372171819A00547467 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9709D4502171819A00547467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9709D4512171819A00547467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9709D4532171819A00547467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ferrom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-54351.ferrom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9709D4542171819A00547467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ferrom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-54351.ferrom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9709D4562171819A00547467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ferromTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-54351.ferromTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ferrom.app/ferrom";
+			};
+			name = Debug;
+		};
+		9709D4572171819A00547467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ferromTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-54351.ferromTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ferrom.app/ferrom";
+			};
+			name = Release;
+		};
+		9709D4592171819A00547467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ferromUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-54351.ferromUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ferrom;
+			};
+			name = Debug;
+		};
+		9709D45A2171819A00547467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ferromUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-54351.ferromUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ferrom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9709D4252171819900547467 /* Build configuration list for PBXProject "ferrom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9709D4502171819A00547467 /* Debug */,
+				9709D4512171819A00547467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9709D4522171819A00547467 /* Build configuration list for PBXNativeTarget "ferrom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9709D4532171819A00547467 /* Debug */,
+				9709D4542171819A00547467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9709D4552171819A00547467 /* Build configuration list for PBXNativeTarget "ferromTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9709D4562171819A00547467 /* Debug */,
+				9709D4572171819A00547467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9709D4582171819A00547467 /* Build configuration list for PBXNativeTarget "ferromUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9709D4592171819A00547467 /* Debug */,
+				9709D45A2171819A00547467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9709D4222171819900547467 /* Project object */;
+}
